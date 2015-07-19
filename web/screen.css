@@ -1,0 +1,138 @@
+html {
+    border: 0;
+    font-family: sans-serif;
+    font-size: .9em;
+}
+
+div.org {
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 75px;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+span.org {
+    font-weight: bold;
+}
+
+div.organisations {
+    float: left;
+    width: 270px;
+    margin: 10px;
+}
+
+div.details {
+    float: left;
+    margin: 21px 10px;
+}
+
+table {
+    width: 100%;
+}
+
+thead tr td {
+    font-weight: bold;
+}
+
+tr {
+    padding: 0;
+    margin: 0;
+}
+
+td {
+    margin: 0;
+    padding: 0;
+    padding: 0px 5px;
+    border-bottom: 1px solid #eee;
+}
+
+td.disp {
+    width: 200px;
+}
+
+td.spf-domain {
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+td.dkim-domain {
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+td.date {
+    width: 200px;
+}
+
+td.ip {
+    width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+td.hostinfo {
+}
+
+div.neutral {
+    background: #ccc;
+}
+
+span.res_neutral {
+    color: #aaa;
+    font-weight: bold;
+}
+
+span.res_none {
+    color: #aaa;
+    font-weight: bold;
+}
+
+div.fail {
+    background: #fcc;
+}
+
+span.res_fail {
+    color: #f33;
+    font-weight: bold;
+}
+
+span.res_temperror {
+    color: #f8c;
+    font-weight: bold;
+}
+
+div.pass {
+    background: #cfc;
+}
+
+span.res_pass {
+    color: #383;
+    font-weight: bold;
+}
+
+span.res_missing {
+    color: #ddd;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+span.disp_none {
+    color: #383;
+}
+
+span.disp_reject {
+    color: #f33;
+}
+
+span.disp_quarantine {
+    color: #33f;
+}
+
+div.back_pass {
+    background: #dfd;
+}

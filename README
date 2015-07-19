@@ -1,0 +1,6 @@
+dmarc-stats
+
+Based on rddmarc by johnl/Taughannock Networks. The PHP part just displays the DB contents.
+
+Requirements: PHP5, MySQL 5.x (or compatible), Perl5, Cron (or compatible)
+

@@ -1,0 +1,2 @@
+30 *    * * *   root    /opt/rddmarc/rddmarc /home/<===dmarc-mail-recipient===>/Maildir/dmarc/new/* &> /dev/null#
+
